@@ -1,7 +1,7 @@
 #HW 1, PROGRAM 1: (product_without)
 
-a = [3, 7, 5, 6, 9]
-print ('starter array:'), a
+A = [3, 7, 5, 6, 9]
+print ('starter array:'), A
 
 
 #array to hold products
@@ -16,7 +16,7 @@ right[length-1]=1
 
 #left
 for i in range(1, len(left)):
-    left[i] = a[i-1]*left[i-1]
+    left[i] = A[i-1]*left[i-1]
     
 
 #right
