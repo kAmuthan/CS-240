@@ -1,4 +1,4 @@
-#hw6 Q1
+
 import math
 global count
 
