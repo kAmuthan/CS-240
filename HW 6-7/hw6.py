@@ -2,6 +2,10 @@
 import math
 global count
 
+#HW8_Q1
+#Write the program determined by the Euclidean algorithm to 
+#find the greatest common divisor of two integers. 
+#Write this as a method and test it.
 def q1():
     a=270
     b=192
@@ -11,6 +15,16 @@ def q1():
         b=temp
     print (a)
 
+
+
+
+
+
+
+#HW8_Q2
+#Write a method that returns the sum of two 8-bit binary numbers using 
+# the algorithm mentioned in class. Consider that all numbers are 
+# represented as arrays of size 8 or 9.
 def q2():
     a=[0,1,1,0,1,1,0,0]
     b=[1,0,0,1,0,1,1,1]
@@ -23,6 +37,14 @@ def q2():
     final[len(a)]=carry
     print (final)
 
+
+
+
+
+
+
+#HW8_Q4
+#your program to multiply the following 64 digit numbers:
 count=0
 x = 1234567891011121314151617181920212223242526272829303132333435363
 y = 1357911131517192123252729313335373941434547495153555759616365676

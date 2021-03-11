@@ -11,6 +11,8 @@ for int in range(t):
 b = [34, -50, 42, 14, -5, 86]
 #[34, -50, 42, 14, -5, 86] should return 137 since [42, 14, -5, 86] 
 # is the largest sum for consecutive elements.
+
+#QUESTION 2A
 def sub_list(n):
     holder =0
     for i in range (n-1,-1,-1):
@@ -29,6 +31,8 @@ def sum_between(x,y,z):
 #necessary to have nested for loops, and external counts to 
 # figure out the subset sums. the order of this method is On^2
 
+
+#QUESTION 2B
 def smart_sub_sum(a):
     n=len(a)
     forwardA=[0]*n
