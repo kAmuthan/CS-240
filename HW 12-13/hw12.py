@@ -25,9 +25,9 @@ def printer_REC(y): #printer
     print("COUNTER: ", count)
     print("------------------")
 
+printer_REC(3)
 printer_REC(5)
 printer_REC(6)
-printer_REC(7)
 printer_REC(10)
 
 print("///////////////////////////")
@@ -56,7 +56,7 @@ def printer_DYN(y): #printer
     print("OUTPUT:", ways_to_multiply_REC(y))
     print("------------------")
 
+printer_DYN(3)
 printer_DYN(5)
 printer_DYN(6)
-printer_DYN(7)
 printer_DYN(10)
