@@ -66,7 +66,7 @@ def closest_pair(Px, Py): #recursive function
     else:
         return s1, s2
 
-random.seed(10**6)
+random.seed(10**3)
 main = []  
 x = []  
 y = [] 
