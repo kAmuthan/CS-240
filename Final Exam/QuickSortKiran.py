@@ -141,7 +141,7 @@ def Q6():
 C = []
 
 for i in range(3): #runs a few times
-    C.append(Q1())
+    C.append(Q6())
 
 avg = statistics.mean(C) #calculate average time 
 
